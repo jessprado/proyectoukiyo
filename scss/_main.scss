@@ -1,0 +1,91 @@
+
+.imgportada {
+	width: 100%;
+}
+.amortitulo {
+	color: $color_1;
+}
+h1 {
+	font-size: 24px;
+	margin: 16px;
+}
+
+.opinion {
+	text-align: center;
+	margin-top: 24px;
+	color: $color_1;
+	letter-spacing: 16px;
+	font-family: $font-family_1;
+	font-weight: bold;
+}
+
+@mixin flex-spbtn-center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#opiniones {
+	@include flex-spbtn-center;
+}
+.box {
+	margin: 24px;
+	padding: 16px;
+	border-radius: 8px;
+	border: 1px dashed rgb(48, 48, 48);
+}
+.Nombre {
+	text-align: center;
+}
+
+/* Sobre mi */
+/* Contactanos */
+/* Responsive  */
+h4 {
+	font-size: 22px;
+	margin-top: 24px;
+	margin-left: 16px;
+}
+.card {
+	margin: 16px;
+}
+.todos {
+	display: flex;
+	align-items: end;
+}
+h5 {
+	font-size: 18px;
+}
+p {
+	font-size: 14px;
+}
+.btn {
+	display: flex;
+	align-items: center;
+}
+.Sobremi {
+	display: flex;
+	align-items: center;
+	margin: 16px;
+}
+.fotoperfil {
+	width: 400px;
+	height: 400px;
+}
+.jessica {
+	margin-left: 16px;
+}
+.bio {
+	margin: 16px;
+	text-align: justify;
+}
+.form {
+	margin-left: 16px;
+	margin-top: 16px;
+}
+.btnform {
+	background-color: $background-color_2;
+	color: $color_2;
+	border-radius: 6px;
+	margin-bottom: 24px;
+}

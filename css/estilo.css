@@ -8,6 +8,7 @@
   height: 1rem;
 }
 
+/* HOME */
 .imgportada {
   width: 100%;
 }
@@ -30,26 +31,36 @@ h1 {
   font-weight: bold;
 }
 
+.opinionTexto {
+  color: aliceblue;
+  text-align: center;
+}
+
 #opiniones {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .box {
   margin: 24px;
   padding: 16px;
-  border-radius: 8px;
-  border: 1px dashed rgb(48, 48, 48);
+  border-radius: 16px;
+  border: 1px solid rgb(48, 48, 48);
+  background-color: rgb(95, 47, 141);
+}
+
+.box:hover {
+  font-weight: 500;
 }
 
 .Nombre {
   text-align: center;
+  color: aliceblue;
 }
 
 /* Sobre mi */
 /* Contactanos */
-/* Responsive  */
 h4 {
   font-size: 22px;
   margin-top: 24px;
@@ -99,8 +110,15 @@ p {
 }
 
 .form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
   margin-left: 16px;
   margin-top: 16px;
+}
+
+.input {
+  width: 50%;
 }
 
 .btnform {
@@ -108,6 +126,24 @@ p {
   color: aliceblue;
   border-radius: 6px;
   margin-bottom: 24px;
+}
+
+/*ubicacion*/
+.ubicacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Map {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+/*productos - todos*/
+.todos {
+  display: flex;
+  align-items: flex-start;
 }
 
 footer {
@@ -145,6 +181,11 @@ h6 {
   }
   .Sobremi {
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 520px) {
+  .input {
+    width: 90%;
   }
 }
 

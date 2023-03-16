@@ -16,4 +16,11 @@
 	.Sobremi {
 		flex-wrap: wrap;
 	}
+
+}
+
+@media (max-width: 520px){
+	.input{
+	width: 90%;
+	}
 }

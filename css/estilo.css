@@ -107,6 +107,7 @@ p {
 .bio {
   margin: 16px;
   text-align: justify;
+  width: 60%;
 }
 
 .form {
@@ -181,6 +182,10 @@ h6 {
   }
   .Sobremi {
     flex-wrap: wrap;
+  }
+  .fotoperfil {
+    width: 90%;
+    height: 90%;
   }
 }
 @media (max-width: 520px) {
